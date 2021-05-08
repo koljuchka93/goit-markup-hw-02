@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <!-- end head-->
-  <body>
+  <body class="body">
     <!--header-->
-    <header class="header">
+    <header class="two-headings">
       <nav class="navigation">
-        <a class="logo-link link" href=""><span>Web</span>Studio</a>
+        <a class="logo-link link" href="/index.html">
+          <span class="web-word">Web</span>Studio
+        </a>
         <ul class="menu list">
           <li class="menu-item">
             <a class="menu-link link" href="/index.html">Студия</a>
@@ -32,32 +34,34 @@
       </nav>
       <ul class="list">
         <li>
-          <a class="mail-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+          <a class="mail-link link" href="mailto:info@devstudio.com">
+            info@devstudio.com
+          </a>
         </li>
         <li>
-          <a class="tel-link link" href="tel:++380961111111"
-            >+38 096 111 11 11</a
-          >
+          <a class="tel-link link" href="tel:++380961111111">
+            +38 096 111 11 11
+          </a>
         </li>
       </ul>
     </header>
+
     <!--main content-->
     <main>
-      <!--section one - buttons-->
-      <section class="hero">
-        <ul class="hero-list list">
+
+      <!--section one - buttons list-->
+
+        <ul class="list">
           <li><button class="type-btn" type="button">Все</button></li>
           <li><button class="type-btn" type="button">Веб-сайты</button></li>
           <li><button class="type-btn" type="button">Приложения</button></li>
           <li><button class="type-btn" type="button">Дизайн</button></li>
           <li><button class="type-btn" type="button">Маркетинг</button></li>
         </ul>
-      </section>
-      <!--section two - images-->
-      <section class="imgs">
-        <ul class="img-list list">
+        <!--end buttons list-->
+
+      <!--section two - images list-->
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio-images/img.jpg"
@@ -149,25 +153,45 @@
             <p>Приложение</p>
           </li>
         </ul>
+        <!--end image list-->
+
       </section>
     </main>
+
     <!--footer-->
     <footer class="footer">
-      <a href="http://">WebStudio</a>
-      <address>
+      <!--logo-->
+      <a class="link" href="/index.html">
+        <span class="web-word">Web</span>Studio
+      </a>
+      <!--contacts-->
+
+      <address class="logo-footer address">
         <ul class="list">
           <li>
             <a
+              class="link"
               href="https://goo.gl/maps/H4tPE2jpk2JbAKVr9"
               target="_blank"
               rel="noopener noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26</a
             >
+              г. Киев, пр-т Леси Украинки, 26
+            </a>
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a class="mail-link link" href="mailto:info@example.com">
+              info@example.com
+            </a>
+          </li>
+          <li>
+            <a class="tel-link link" href="tel:+380991111111">
+              +38 099 111 11 11
+            </a>
+          </li>
         </ul>
       </address>
+
+      <!--end contacts-->
     </footer>
   </body>
 </html>

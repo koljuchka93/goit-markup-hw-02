@@ -1,16 +1,24 @@
 :root {
-  --main-font: "Roboto";
-  --secondary-font: "Raleway";
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --font-heading-color: #212121;
+  --font-paragraph-color: #757575;
+  --button-click-on-color: #188ce8;
+  --button-portfolio-color: #F5F4FA;
 }
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+  color: var(--main-background-color);
 }
 .body {
   font-family: var(--main-font);
+  color: var(--font-heading-color);
 }
 /* ============= COMPONENTS ============= */
 .modal-btn {
@@ -19,13 +27,14 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: transparent;
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  color: #ffffff;
-  background-color: var(--accent-color);
+  color: var(--main-background-color);
+  background-color: var(--button-click-on-color);
 }
 .type-btn {
   font-weight: 500;
@@ -33,49 +42,42 @@
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  background-color: transparent;
+  background-color: #F5F4FA;
+  border-radius: 4px;
   cursor: pointer;
 }
 .type-btn:hover,
 .type-btn:focus {
-  color: #ffffff;
-  background-color: var(--accent-color);
-}
-/* ============= END COMPONENTS ============= */
-
-/* ============= HEADER ============= */
-.header {
-  background-color: #ffffff;
-}
-.navigation {
-}
-.menu {
+  color: var(--main-background-color);
+  background-color: var(--button-click-on-color);
 }
 .menu-item:hover,
 .menu-item:focus {
   color: var(--accent-color);
-}
-.logo-link {
-}
-.link {
-}
-.menu {
-}
-.list {
-}
-.menu-item {
-}
-.mail-link {
-}
-.tel link {
+/* ============= END COMPONENTS ============= */
+
+/* ============= HEADER ============= */
+.logo-header {
+  color: black;
 }
 .web-word {
-}
-
+  color: var(--accent-color);}
 /* ============= END HEADER ============= */
 
-/* ============= HERO ============= */
-/* ============= END HERO ============= */
-
-/* ============= ABOUT ============= */
-/* ============= END ABOUT ============= */
+/* ============= FOOTER (READY) ============= */
+.footer,
+.logo-footer {
+  background-color: var(--footer-background-color);
+}
+.address {
+  font-size: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.mail-link,
+.tel-link {
+  opacity: 0.6;
+}
+/* ============= END FOOTER ============= */
