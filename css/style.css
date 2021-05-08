@@ -1,0 +1,81 @@
+:root {
+  --main-font: "Roboto";
+  --secondary-font: "Raleway";
+  --accent-color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.body {
+  font-family: var(--main-font);
+}
+/* ============= COMPONENTS ============= */
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.type-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+.type-btn:hover,
+.type-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* ============= END COMPONENTS ============= */
+
+/* ============= HEADER ============= */
+.header {
+  background-color: #ffffff;
+}
+.navigation {
+}
+.menu {
+}
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--accent-color);
+}
+.logo-link {
+}
+.link {
+}
+.menu {
+}
+.list {
+}
+.menu-item {
+}
+.mail-link {
+}
+.tel link {
+}
+.web-word {
+}
+
+/* ============= END HEADER ============= */
+
+/* ============= HERO ============= */
+/* ============= END HERO ============= */
+
+/* ============= ABOUT ============= */
+/* ============= END ABOUT ============= */
