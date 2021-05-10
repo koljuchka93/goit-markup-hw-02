@@ -137,7 +137,7 @@ body {
 .our-work-list-item-h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  line-height: 1.875;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--font-heading-color);
 }
@@ -219,4 +219,5 @@ body {
 }
 .address {
   font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }
